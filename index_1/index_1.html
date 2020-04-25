@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5</title>
+	<link rel="stylesheet" href="./index_1.css">
+</head>
+<body>
+    <div class="head">
+        <left><img src="https://pbs.twimg.com/profile_images/1132158276244656129/t7DxlMp8_400x400.jpg" height="100px" width="100px"></left>
+        <right><h1>about us</h1></right>
+        <right onclick="on()" id="contact"><h1>contact</h1></right>
+        <right><h1 id="fanpage"></h1></right>
+    </div>
+    <div class="content">
+        <div class="mypic">
+            <img src="https://i.pinimg.com/originals/3c/d9/a2/3cd9a269fd8d532908e77e70589c0a66.jpg">
+        </div>
+        <div class="mypic">
+            <img src="https://image1.ictnews.vn/_Files/2017/05/09/g11-anh-bia-facebook-dep-anh-bia-fb-dep-nhat-y-nghia-ve-tinh-yeu-anh-bia-dep-nhat-cho-facebook-ve-tinh-yeu-buon-lang-man.jpg">
+        </div>
+        <div class="mypic">
+            <img src="https://st.quantrimang.com/photos/image/2019/07/11/Windows-xp.jpg">
+        </div>
+        <div class="prev" onclick="pluspic(-1)">&#10094;</div>
+	<div class="next" onclick="pluspic(1)">&#10095;</div>
+    </div>
+    <div style="display: flex;position: relative;left:50%;top:5px">
+        <div class="dot hinh1" onclick="curpic(1)"></div>
+        <div class="dot hinh2" onclick="curpic(2)"></div>
+        <div class="dot hinh3" onclick="curpic(3)"></div>
+    </div>
+    <script src="./index_1.js"></script>
+</body>
+</html>

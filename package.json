@@ -1,0 +1,27 @@
+{
+  "name": "text_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baristi000/text_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baristi000/text_api/issues"
+  },
+  "homepage": "https://github.com/Baristi000/text_api#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "view": "^1.1.1"
+  }
+}
